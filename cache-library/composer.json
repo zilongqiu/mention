@@ -1,0 +1,31 @@
+{
+    "name": "qiuz/cache-library",
+    "description": "A simple cache library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zi-long QIU",
+            "email": "zilong.qiu@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "symfony/serializer": "^2.8|^3.0|^4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8|~5.0|~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qiu\\Cache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Qiu\\Cache\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
